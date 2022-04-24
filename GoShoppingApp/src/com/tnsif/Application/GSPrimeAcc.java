@@ -17,7 +17,7 @@ public class GSPrimeAcc extends PrimeAcc
 	
 	public void bookProduct(float charges)
 	{
-		System.out.println("Dear prime User, Your product chareges are "+charges);
+		System.out.println("Dear prime User, Your product chareges are " +charges);
 	}
 
 
