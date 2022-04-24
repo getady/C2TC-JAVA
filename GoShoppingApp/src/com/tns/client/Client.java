@@ -19,16 +19,22 @@ public class Client
 		gsprime.getAccNo();
 		gsprime.getAccNm();
 		gsprime.getCharges();
+		
+		//step-d
 		gsprime.bookProduct(1000);
+		//step-e
 		gsprime.toString();
 		
-		
+		//step-c
 		GSNormalAcc gsnormal=new GSNormalAcc(102, "ateef", 1500, 50);
 		gsnormal.getAccNo();
 		gsnormal.getAccNm();
 		gsnormal.getCharges();
 		gsnormal.getDeliverycharges();
+		
+		//step-d
 		gsnormal.bookProduct(1500);
+		//step-e
 		gsnormal.toString();
 		
 	
