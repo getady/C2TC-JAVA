@@ -34,7 +34,7 @@ public class Client
 		
 		//step-d
 		gsnormal.bookProduct(1500);
-		//step-e
+		//step-e 
 		gsnormal.toString();
 		
 	
