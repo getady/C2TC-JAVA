@@ -25,7 +25,7 @@ import com.cg.jpacrud.service.StudentServiceImpl;
 				// Retrieve Operation
 				student = service.findStudentById(103);
 				System.out.print("ID:"+student.getStudentid());
-				System.out.println(" Name:"+student.getName()); // habibi
+				System.out.println(" Name:"+student.getName()); // Ayda
 			
 				 
 				// Update Operation
@@ -37,7 +37,7 @@ import com.cg.jpacrud.service.StudentServiceImpl;
 				
 				student = service.findStudentById(103);
 				System.out.print("ID:"+student.getStudentid());
-				System.out.println(" Name:"+student.getName());  // Yasir Bin-Mazi
+				System.out.println(" Name:"+student.getName());  // Alim Awez
 				
 			
 				//at this breakpoint, record is removed from table
