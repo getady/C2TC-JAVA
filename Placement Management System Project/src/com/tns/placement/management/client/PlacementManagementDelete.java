@@ -20,17 +20,14 @@ import com.tns.placement.management.service.UserServiceImpl;
 
 public class PlacementManagementDelete {
 	public static void main(String[] args) {
-		  User user = new User();							// object for class User
+		 
+		
+			User user = new User();							// object for class User
 			College college = new College();				// object for class College
 			Student student = new Student();				// object for class Student
-//			Student student1 = new Student();
-//			Student student2 = new Student();
 			Placement placement = new Placement();			// object for class Placement
-//			Placement placement1 = new Placement();
-//			Placement placement2 = new Placement();
 			Certificate certificate = new Certificate();	// object for class Certificate
-//			Certificate certificate1 = new Certificate();
-//			Certificate certificate2 = new Certificate();
+
 			
 			IUserService service = new UserServiceImpl();				// object for calling the JPACRUD operations in User
 			ICollegeService service1 = new CollegeServiceImpl();		// object for calling the JPACRUD operations in College
@@ -42,15 +39,12 @@ public class PlacementManagementDelete {
 			user = service.searchUserById(1);
 			college = service1.searchCollege(1);
 			student = service2.searchStudentById(1);
-			//student = service2.searchStudentById(2);
-			//student = service2.searchStudentById(3);
 			placement = service3.searchPlacement(3);
 			certificate = service4.searchCertificate(3);
 			
 			service.deleteUser(user);
 			service1.deleteCollege(college);
 			service2.deleteStudent(student);
-			//service2.deleteStudent(student);
 			service3.deletePlacement(placement);
 			service4.deleteCertificate(certificate);
 			System.out.println("Delete is performed successfully........");
